@@ -6,6 +6,8 @@ export default createBoard({
     Board: () => <MiniPlayer />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 313,
+        canvasWidth: 351,
+        windowHeight: 761,
+        windowWidth: 490,
     },
 });
