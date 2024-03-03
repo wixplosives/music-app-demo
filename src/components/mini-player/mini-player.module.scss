@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
 .root {
   display: flex;
   row-gap: 0px;
@@ -65,6 +68,7 @@
   border-radius: 10px;
   margin-bottom: 2px;
   padding-bottom: 32px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 .title {
   color: #9d9d9d;
@@ -84,6 +88,7 @@
   font-size: 16px;
   color: #c8c8c8;
 }
+
 .medium {
   color: #ffffff;
   font-size: 22px;
@@ -92,7 +97,8 @@
   min-height: auto;
   line-height: 1;
   display: flex;
-  font-weight: 700;
+  font-weight: 600;
+  font-family: 'Blinker', sans-serif;
 }
 .top-area {
 }
