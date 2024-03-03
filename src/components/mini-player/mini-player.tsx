@@ -1,6 +1,5 @@
 import classNames from 'classnames';
 import styles from './mini-player.module.scss';
-import { PlayBtn } from '../play-btn/play-btn';
 
 export interface MiniPlayerProps {
     className?: string;
@@ -28,7 +27,6 @@ export const MiniPlayer = ({ className }: MiniPlayerProps) => {
                         </div>
                     </div>
                     <div className={styles.icons}>
-                        <PlayBtn variant="primary" />
                         <img
                             src="https://i.ibb.co/fvMWN0Q/Heart.png "
                             alt=""
