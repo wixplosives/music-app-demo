@@ -2,15 +2,21 @@
   display: flex;
   flex-direction: row;
   gap: 0px 8px;
-  width: 100%0;
+  width: auto;
 }
 .nav-text {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  color: var(--nav-item);
 }
+
 .nav-item {
-}
-.nav-item {
-  width: 100%;
-  padding: 12px;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
 }
 .icon {
+  height: 24px;
+  width: 24px;
 }

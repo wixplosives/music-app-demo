@@ -15,8 +15,8 @@ export interface NavItemProps {
 export const NavItem = ({ className, text, imageUrl, showIcon }: NavItemProps) => {
     return (
         <div className={classNames(styles.root, className, styles['nav-item'])}>
-            {showIcon && <img src={imageUrl} alt={text} className={styles.icon} />}
-            <p>{text}</p>
+            {showIcon && <img alt={text} src={imageUrl} className={styles.icon} />}
+            <p className={styles['nav-text']}>{text}</p>
         </div>
     );
 };

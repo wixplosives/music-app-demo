@@ -5,14 +5,14 @@ export default createBoard({
     name: 'NavItem',
     Board: () => (
         <NavItem
-            text="home"
+            text="Home "
             imageUrl="https://static.wixstatic.com/shapes/27eba2_1472978891f5457d9ed90a571c301a95.svg"
             showIcon={true}
         />
     ),
     isSnippet: true,
     environmentProps: {
-        windowBackgroundColor: '#a76060',
+        windowBackgroundColor: '#1e505c',
         canvasWidth: 219,
     },
 });
