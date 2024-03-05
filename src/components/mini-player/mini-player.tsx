@@ -2,8 +2,6 @@ import classNames from 'classnames';
 import styles from './mini-player.module.scss';
 import { PlayBtn } from '../play-btn/play-btn';
 
-
-
 export interface MiniPlayerProps {
     className?: string;
 }
@@ -12,6 +10,7 @@ export interface MiniPlayerProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
+
 export const MiniPlayer = ({ className }: MiniPlayerProps) => {
     return (
         <div className={classNames(styles.root, styles.MiniPlayer)}>

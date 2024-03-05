@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
-
-
 .root {
   display: flex;
   row-gap: 0px;
@@ -53,7 +50,7 @@
     }
   }
   &:hover {
-    background-color: #24e220;
+    background-color: #20525e;
     .track-name {
       color: #f7ff8f;
     }
@@ -61,6 +58,7 @@
       color: white;
     }
   }
+  background-color: #144955;
 }
 .MiniPlayer {
   background-color: #144955;

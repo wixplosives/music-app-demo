@@ -1,0 +1,36 @@
+.root {
+
+    .song-small-card {
+  display: flex;
+  gap: 8px 16px;
+  padding: 8px 24px 8px 16px;
+  width: auto;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  flex-direction: row;
+  justify-content: start;
+  justify-items: center;
+  &:active {
+    justify-content: start;
+    background-color: #2a5e6b;
+    border-radius: 4px;
+    .track-name {
+      color: #f7ff8f;
+    }
+    .artist-name {
+      color: white;
+    }
+  }
+  &:hover {
+    background-color: #20525e;
+    .track-name {
+      color: #f7ff8f;
+    }
+    .artist-name {
+      color: white;
+    }
+  }
+  background-color: #144955;
+}
+}
