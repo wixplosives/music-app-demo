@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
 
-
-
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,11 +9,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
- --primary-btn: #e4ff88;
+  --primary-btn: #e4ff88;
   --txt-btn: #120505;
   --white: #ffffff;
-  --nav-item: #FAFAFA;
-
+  --nav-item-text: #fafafa;
+  --nav-item-hover: #295965;
+  --sidebar-color: #1e505c;
 }
 
 a {
@@ -26,6 +24,16 @@ a {
 }
 a:hover {
   color: #535bf2;
+}
+
+.nav-text {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  color: var(--nav-item-text);
+  line-height: 1;
+  height: auto;
+  display: block;
+  margin-top: auto;
 }
 
 body {

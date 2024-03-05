@@ -1,2 +1,49 @@
 .root {
 }
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.nav-title {
+  font-family: 'Archivo', sans-serif;
+  color: var(--nav-item-text);
+  font-weight: 700;
+  opacity: 70%;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.lower-nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.logo-welcome {
+  display: flex;
+  flex-direction: row;
+  min-width: auto;
+  min-height: auto;
+  line-height: 0;
+  align-items: center;
+  column-gap: 12px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+.welcome-txt {
+  font-family: 'Archivo', sans-seif;
+  font-weight: 700;
+  color: var(--nav-item-text);
+  font-size: 20px;
+  line-height: 1;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.add-playlist {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

@@ -8,17 +8,20 @@
   padding-left: 3px;
 }
 .primary {
-  background-color: #f7ff89;
+  background-color: #0d4350;
   color: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
 }
 .secondary {
   box-shadow: inset 0 0 0 1px #fffa27;
   color: #fffa27;
 }
 .play-icon {
-  width: 16px;
-  height: 16px;
-  color: #3b91a5;
+  height: 36px;
+  color: var(--primary-btn);
+  width: 36px;
 }
 .secondary {
 }

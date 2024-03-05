@@ -5,4 +5,10 @@ export default createBoard({
     name: 'Navigation',
     Board: () => <Navigation />,
     isSnippet: true,
+    environmentProps: {
+        windowBackgroundColor: '#1e505c',
+        canvasWidth: 252,
+        canvasHeight: 694,
+        windowHeight: 873,
+    },
 });
