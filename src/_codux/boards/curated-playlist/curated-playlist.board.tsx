@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => <CuratedPlaylist />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 435,
+        canvasWidth: 545,
         canvasHeight: 941,
         windowHeight: 1222,
         windowWidth: 1298,

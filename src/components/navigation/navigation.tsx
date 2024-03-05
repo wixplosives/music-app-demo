@@ -1,3 +1,4 @@
+import '../../index.css';
 import classNames from 'classnames';
 import styles from './navigation.module.scss';
 import { NavItem } from '../nav-item/nav-item';
@@ -48,7 +49,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                     showIcon={true}
                 />
             </div>
-            <p className={styles['nav-title']}>LIBRARY</p>
+            <p className="nav-title">LIBRARY</p>
             <div className={styles['lower-nav']}>
                 <NavItem
                     text="My Playlists"

@@ -36,6 +36,20 @@ a:hover {
   margin-top: auto;
 }
 
+.nav-title {
+  font-family: 'Archivo', sans-serif;
+  color: var(--nav-item-text);
+  font-weight: 700;
+  opacity: 70%;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 0;
+}
+
+
+
+
 body {
   margin: 0;
   display: flex;

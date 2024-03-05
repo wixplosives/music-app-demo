@@ -8,8 +8,9 @@ export default createBoard({
     name: 'App',
     Board: () => <SideBar />,
     environmentProps: {
-        canvasWidth: 233,
+        canvasWidth: 297,
         windowBackgroundColor: '#0d4350',
         windowHeight: 753,
+        canvasHeight: 794,
     },
 });
