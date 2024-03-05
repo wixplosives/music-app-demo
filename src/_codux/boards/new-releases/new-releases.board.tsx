@@ -5,4 +5,9 @@ export default createBoard({
     name: 'NewReleases',
     Board: () => <NewReleases />,
     isSnippet: true,
+    environmentProps: {
+        windowBackgroundColor: '#0d4350',
+        windowWidth: 1166,
+        canvasWidth: 428,
+    },
 });

@@ -16,7 +16,7 @@ export interface ReleaseCardProps {
 export const ReleaseCard = ({ className, imageUrl, artist, song }: ReleaseCardProps) => {
     return (
         <div className={classNames(className, styles.card)}>
-            <img src={imageUrl} alt={song} />
+            <img src={imageUrl} alt={song} className={styles.card} />
             <div className={styles['song-details']}>
                 <p className={styles['song']}>{song}</p>
                 <p className={styles['artist']}>{artist}</p>

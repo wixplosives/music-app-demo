@@ -6,13 +6,13 @@ export default createBoard({
     Board: () => (
         <ReleaseCard
             imageUrl="https://static.wixstatic.com/media/27eba2_122ab2fd167449e9b1baae05db3b9bc1~mv2.png"
-            artist="test"
-            song="test"
+            artist="Road to Neptune"
+            song="Niya Rae "
         />
     ),
     isSnippet: true,
     environmentProps: {
         canvasWidth: 210,
-        windowBackgroundColor: '#122810',
+        windowBackgroundColor: '#0d4350',
     },
 });

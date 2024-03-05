@@ -1,2 +1,18 @@
 .root {
 }
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: start;
+  max-width: none;
+  gap: 24px;
+  align-items: center;
+}
+.top-txt {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
