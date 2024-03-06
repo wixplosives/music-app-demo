@@ -16,7 +16,7 @@ export const SideBar = ({ className }: SideBarProps) => {
     return (
         <div className={classNames(styles.root, className, styles['side-bar'])}>
             <Navigation />
-            <ButtonPrimary text="Turn it up!" />
+            <ButtonPrimary text="Upgrade" />
         </div>
     );
 };

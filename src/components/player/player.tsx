@@ -19,31 +19,35 @@ export const Player = ({ className }: PlayerProps) => {
                     <div className="artist">Jolene RV</div>
                 </div>
                 <div className={styles.icons}>
-                    <img
-                        src="https://static.wixstatic.com/shapes/27eba2_eb9dab580bfe4bd5a5c56f43629d1fe3.svg"
-                        alt=""
-                        className={styles['player-icon']}
-                    />
-                    <img
-                        src="https://static.wixstatic.com/shapes/27eba2_e04f4c8cc4ea4fada8d74b3ed9a721d7.svg"
-                        alt=""
-                        className={styles['player-icon']}
-                    />
+                    <div className={styles['left-icon']}>
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_eb9dab580bfe4bd5a5c56f43629d1fe3.svg"
+                            alt=""
+                            className={styles['player-icon']}
+                        />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_e04f4c8cc4ea4fada8d74b3ed9a721d7.svg"
+                            alt=""
+                            className={styles['player-icon']}
+                        />
+                    </div>
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_35fc1b1a5b564bd8a461ffeb02d5272f.svg"
                         alt=""
                         className={styles['play-icon']}
                     />
-                    <img
-                        src="https://static.wixstatic.com/shapes/27eba2_b7b48a05a1244fdda79348e7f6951bbf.svg"
-                        alt=""
-                        className={styles['player-icon']}
-                    />
-                    <img
-                        src="https://static.wixstatic.com/shapes/27eba2_423a39a41498402a9d8f847c1226cf7c.svg "
-                        alt=""
-                        className={styles['player-icon']}
-                    />
+                    <div className={styles['right-icons']}>
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_b7b48a05a1244fdda79348e7f6951bbf.svg"
+                            alt=""
+                            className={styles['player-icon']}
+                        />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_423a39a41498402a9d8f847c1226cf7c.svg "
+                            alt=""
+                            className={styles['player-icon']}
+                        />
+                    </div>
                 </div>
             </div>
             <img

@@ -15,17 +15,18 @@
   background-origin: padding-box;
   background-clip: border-box;
   background-color: transparent;
-  max-width: 200px;
   margin-left: 42px;
+  max-width: 200px;
 }
 .player {
   background-color: var(--bg-secondary);
   display: flex;
   justify-content: space-between;
-  align-content: space-between;
+  align-content: space-around;
   flex-direction: row;
-  width: 100%;
   height: auto;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 .player-txt {
   padding: 0px;
@@ -43,6 +44,7 @@
   justify-content: space-between;
   margin-right: 0px;
   max-width: 450px;
+  flex-wrap: wrap;
 }
 .left {
   padding-top: 2px;
@@ -52,7 +54,7 @@
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 24px;
-  width: 100%;
+  width: max-content;
 }
 .player-icon {
   width: 40px;
@@ -60,4 +62,8 @@
 }
 .play-icon {
   width: 40px;
+}
+.right-icons {
+}
+.left-icon {
 }
