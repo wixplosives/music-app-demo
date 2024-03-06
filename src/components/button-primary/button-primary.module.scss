@@ -14,12 +14,12 @@
   padding-bottom: 16px;
   padding-left: 24px;
   border-radius: 100px;
-  background-color: var(--white);
+  background-color: var(--bg-main);
   text-align: center;
   justify-content: center;
   color: var(--txt-btn);
   line-height: 1;
   &:hover {
-    background-color: #000000;
+    background-color: #ecffaf;
   }
 }
