@@ -19,12 +19,12 @@ export default createBoard({
             </div>
         </div>
     ),
-    isSnippet: true,
+    isSnippet: false,
     environmentProps: {
-        windowHeight: 1061,
-        windowWidth: 1780,
+        windowHeight: 1151,
+        windowWidth: 1772,
         canvasHeight: 906,
         windowBackgroundColor: '#ffffff',
-        canvasWidth: 1262,
+        canvasWidth: 1280,
     },
 });

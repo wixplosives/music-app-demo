@@ -26,9 +26,9 @@ export const NewReleases = ({ className }: NewReleasesProps) => {
                     song="2050"
                 />
                 <ReleaseCard
-                    imageUrl="https://static.wixstatic.com/media/27eba2_bea1b50b08bc4d72a8d01a4134aba985~mv2.png "
+                    imageUrl="https://static.wixstatic.com/media/27eba2_bea1b50b08bc4d72a8d01a4134aba985~mv2.png"
                     artist="The Kicking Hills"
-                    song="Truth on Time "
+                    song="Truth on Earth"
                 />
                 <ReleaseCard
                     imageUrl="https://static.wixstatic.com/media/27eba2_122ab2fd167449e9b1baae05db3b9bc1~mv2.png"
