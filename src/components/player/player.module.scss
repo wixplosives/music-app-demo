@@ -16,6 +16,7 @@
   background-clip: border-box;
   background-color: transparent;
   max-width: 200px;
+  margin-left: 56px;
 }
 .player {
   background-color: var(--bg-secondary);
@@ -23,8 +24,8 @@
   justify-content: space-between;
   align-content: space-between;
   flex-direction: row;
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 .player-txt {
   padding: 0px;
@@ -38,6 +39,10 @@
   display: flex;
   column-gap: 8px;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: 0px;
+  max-width: 450px;
 }
 .left {
   padding-top: 2px;
@@ -47,6 +52,7 @@
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 24px;
+  width: 100%;
 }
 .player-icon {
   width: 40px;

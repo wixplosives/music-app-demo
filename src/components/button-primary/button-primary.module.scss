@@ -2,6 +2,7 @@
   --primary-btn: #e4ff88;
   --txt-btn: #120505;
   --white: #ffffff;
+  background-color: var(--primary-btn);
 }
 .btn-primary {
   font-family: 'Archivo', sans-serif;
@@ -13,7 +14,7 @@
   padding-bottom: 16px;
   padding-left: 24px;
   border-radius: 100px;
-  background-color: var(--primary-btn);
+  background-color: var(--white);
   text-align: center;
   justify-content: center;
   color: var(--txt-btn);

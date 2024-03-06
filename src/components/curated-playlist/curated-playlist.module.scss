@@ -2,6 +2,10 @@
   height: 100%;
   line-height: 1;
   border-radius: 105px;
+  width: auto;
+  display: flex;
+  min-width: 200px;
+  max-width: 1000px;
 }
 .img-wrap {
   width: 100%;

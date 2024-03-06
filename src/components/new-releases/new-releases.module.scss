@@ -1,14 +1,22 @@
 .root {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: var(--bg-secondary);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .card-wrapper {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   flex-wrap: wrap;
   align-content: start;
   justify-content: start;
-  max-width: none;
   gap: 24px;
-  align-items: center;
+  align-items: stretch;
+  justify-items: stretch;
+  width: 100%;
 }
 .top-txt {
   display: flex;
