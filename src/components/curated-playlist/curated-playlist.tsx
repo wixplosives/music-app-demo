@@ -19,7 +19,7 @@ export const CuratedPlaylist = ({ className }: CuratedPlaylistProps) => {
             <div className={styles['curated-playlist']}>
                 <div className={styles['playllist-txt']}>
                     <p className="nav-text">CURATED PLAYLIST</p>
-                    <p className={styles['playlist-name']}>Work Waves</p>
+                    <p className={styles['playlist-name']}>Fresh Waves</p>
                     <p className={styles['playlist-description']}>
                         Where synergy meets productivity and every beat collaborates to create a
                         seamless workday soundtrack.

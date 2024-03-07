@@ -3,7 +3,6 @@ import { SideBar } from '../../components/side-bar/side-bar';
 import NewBoard_board_module from './new-board.board.module.scss';
 import { NewReleases } from '../../components/new-releases/new-releases';
 import { Player } from '../../components/player/player';
-import { CuratedPlaylist } from '../../components/curated-playlist/curated-playlist';
 
 export default createBoard({
     name: 'M App',
@@ -11,7 +10,6 @@ export default createBoard({
         <div className={NewBoard_board_module['app-wrapper']}>
             <SideBar />
             <div className={NewBoard_board_module.content}>
-                <CuratedPlaylist />
                 <div className={NewBoard_board_module.right}>
                     <NewReleases />
                     <Player />
@@ -21,9 +19,9 @@ export default createBoard({
     ),
     isSnippet: false,
     environmentProps: {
-        windowHeight: 954,
-        windowWidth: 1220,
-        canvasHeight: 950,
+        windowHeight: 907,
+        windowWidth: 1274,
+        canvasHeight: 904,
         windowBackgroundColor: '#ffffff',
         canvasWidth: 1570,
     },
